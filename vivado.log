@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Aug 20 20:04:59 2025
+# Process ID: 1076
+# Current directory: F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7144 F:\MOHAMMED ESSAM\Digital\Design\Final_Projects\Projects\Project 3 -UART\UART\UART.xpr
+# Log file: F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/vivado.log
+# Journal file: F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 781.805 ; gain = 130.586
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 827.254 ; gain = 0.000
+launch_runs synth_1 -jobs 2
+[Wed Aug 20 20:41:20 2025] Launched synth_1...
+Run output will be captured here: F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 860.797 ; gain = 33.477
+launch_runs impl_1 -jobs 2
+[Wed Aug 20 20:44:14 2025] Launched impl_1...
+Run output will be captured here: F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a200tffg1156-3
+INFO: [Project 1-454] Reading design checkpoint 'f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'rx_fifo'
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a200tffg1156-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'rx_fifo/U0'
+Finished Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'rx_fifo/U0'
+Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'tx_fifo/U0'
+Finished Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'tx_fifo/U0'
+Parsing XDC File [F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/constrs_1/new/chock.xdc]
+Finished Parsing XDC File [F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/constrs_1/new/chock.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 1375.602 ; gain = 514.805
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.255 . Memory (MB): peak = 1893.852 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.255 . Memory (MB): peak = 1893.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1962.129 ; gain = 78.891
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a200tffg1156-3
+INFO: [Project 1-454] Reading design checkpoint 'f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'rx_fifo'
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'rx_fifo/U0'
+Finished Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'rx_fifo/U0'
+Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'tx_fifo/U0'
+Finished Parsing XDC File [f:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'tx_fifo/U0'
+Parsing XDC File [F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/constrs_1/new/chock.xdc]
+Finished Parsing XDC File [F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/constrs_1/new/chock.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2142.414 ; gain = 173.402
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2142.414 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'F:/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_UART' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_UART_vlog.prj"
+"xvhdl --incr --relax -prj tb_UART_vhdl.prj"
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 2167.371 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e013cdb78e414329bf4a2b4efd0d6b7c --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_UART_behav xil_defaultlib.tb_UART xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 10 differs from formal bit length 8 for port FINAL_VALUE [F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.srcs/sources_1/new/UART.v:74]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 2167.371 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/MOHAMMED ESSAM/Digital/Design/Final_Projects/Projects/Project 3 -UART/UART/UART.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_UART_behav -key {Behavioral:sim_1:Functional:tb_UART} -tclbatch {tb_UART.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source tb_UART.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ms
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2167.371 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 2167.371 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_UART_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ms
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:40 . Memory (MB): peak = 2167.371 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 2170.184 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 20 21:46:59 2025...
